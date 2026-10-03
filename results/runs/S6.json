@@ -1,0 +1,332 @@
+{
+ "name": "S6",
+ "cfg": {
+  "name": "S6",
+  "dim": 100,
+  "window": 5,
+  "negatives": 5,
+  "sample": 0.0001,
+  "min_count": 5,
+  "lr": 0.01,
+  "epochs": 5,
+  "batch_size": 32768,
+  "fraction": 0.25,
+  "seed": 42
+ },
+ "impl": "sgns-pytorch",
+ "corpus_tokens": 6072816,
+ "vocab": 45333,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 2.461380958557129,
+   "pairs": 20748055,
+   "tokens_after_subsampling": 3604639,
+   "time_s": 9.558066833997145,
+   "an_sem": 0.07208765859284891,
+   "an_syn": 0.09966321566670824,
+   "an_total": 0.0913365259033522,
+   "wordsim": 0.5209334360567333,
+   "neighbors": {
+    "king": [
+     "deira",
+     "veera",
+     "\u00e6thelred",
+     "vishnuvardhana",
+     "northumbria"
+    ],
+    "france": [
+     "spain",
+     "netherlands",
+     "italy",
+     "belgium",
+     "portugal"
+    ],
+    "computer": [
+     "2600",
+     "computers",
+     "customization",
+     "aksys",
+     "pre-rendered"
+    ],
+    "good": [
+     "pretty",
+     "crass",
+     "doing",
+     "seemed",
+     "quite"
+    ],
+    "january": [
+     "february",
+     "june",
+     "november",
+     "december",
+     "april"
+    ],
+    "run": [
+     "three-run",
+     "walk-off",
+     "41-yard",
+     "utley",
+     "moyer"
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "train_loss": 2.224783420562744,
+   "pairs": 20732106,
+   "tokens_after_subsampling": 3603340,
+   "time_s": 9.441997125002672,
+   "an_sem": 0.12831603229527105,
+   "an_syn": 0.1751278533117126,
+   "an_total": 0.16099259904222898,
+   "wordsim": 0.6019660868545528,
+   "neighbors": {
+    "king": [
+     "narasimha",
+     "veera",
+     "ballala",
+     "sennacherib",
+     "murchad"
+    ],
+    "france": [
+     "italy",
+     "spain",
+     "netherlands",
+     "ronde",
+     "germany"
+    ],
+    "computer": [
+     "atari",
+     "computers",
+     "interface",
+     "2600",
+     "software"
+    ],
+    "good": [
+     "pretty",
+     "bad",
+     "outrageously",
+     "really",
+     "quite"
+    ],
+    "january": [
+     "february",
+     "november",
+     "december",
+     "april",
+     "july"
+    ],
+    "run": [
+     "walk-off",
+     "three-run",
+     "two-run",
+     "werth",
+     "madson"
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "train_loss": 2.1625900268554688,
+   "pairs": 20745270,
+   "tokens_after_subsampling": 3603557,
+   "time_s": 9.461736249999376,
+   "an_sem": 0.16724336793540945,
+   "an_syn": 0.2060621179992516,
+   "an_total": 0.19434044405746626,
+   "wordsim": 0.6035196211021028,
+   "neighbors": {
+    "king": [
+     "veera",
+     "narasimha",
+     "sennacherib",
+     "\u00e6thelred",
+     "murchad"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "netherlands",
+     "marseille",
+     "belgium"
+    ],
+    "computer": [
+     "computers",
+     "atari",
+     "2600",
+     "software",
+     "robinett"
+    ],
+    "good": [
+     "pretty",
+     "very",
+     "things",
+     "brilliant",
+     "bad"
+    ],
+    "january": [
+     "february",
+     "october",
+     "november",
+     "march",
+     "december"
+    ],
+    "run": [
+     "three-run",
+     "walk-off",
+     "game-tying",
+     "ib\u00e1\u00f1ez",
+     "werth"
+    ]
+   }
+  },
+  {
+   "epoch": 4,
+   "train_loss": 2.126204252243042,
+   "pairs": 20742681,
+   "tokens_after_subsampling": 3603389,
+   "time_s": 9.49092662500334,
+   "an_sem": 0.18627450980392157,
+   "an_syn": 0.2240239491081452,
+   "an_total": 0.21262516325642142,
+   "wordsim": 0.6120258601560067,
+   "neighbors": {
+    "king": [
+     "veera",
+     "narasimha",
+     "sargon",
+     "sennacherib",
+     "murchad"
+    ],
+    "france": [
+     "spain",
+     "netherlands",
+     "italy",
+     "belgium",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "atari",
+     "software",
+     "2600",
+     "pre-rendered"
+    ],
+    "good": [
+     "pretty",
+     "very",
+     "bad",
+     "really",
+     "decent"
+    ],
+    "january": [
+     "march",
+     "december",
+     "february",
+     "october",
+     "november"
+    ],
+    "run": [
+     "walk-off",
+     "three-run",
+     "game-tying",
+     "madson",
+     "werth"
+    ]
+   }
+  },
+  {
+   "epoch": 5,
+   "train_loss": 2.1015584468841553,
+   "pairs": 20738794,
+   "tokens_after_subsampling": 3603419,
+   "time_s": 9.440608625001914,
+   "an_sem": 0.18771626297577854,
+   "an_syn": 0.23026069602095547,
+   "an_total": 0.2174140182847192,
+   "wordsim": 0.6134265971730711,
+   "neighbors": {
+    "king": [
+     "veera",
+     "narasimha",
+     "sargon",
+     "sennacherib",
+     "murchad"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "netherlands",
+     "belgium",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "atari",
+     "software",
+     "2600",
+     "pre-rendered"
+    ],
+    "good": [
+     "pretty",
+     "very",
+     "really",
+     "bad",
+     "things"
+    ],
+    "january": [
+     "february",
+     "march",
+     "december",
+     "november",
+     "october"
+    ],
+    "run": [
+     "walk-off",
+     "three-run",
+     "game-tying",
+     "werth",
+     "madson"
+    ]
+   }
+  }
+ ],
+ "steps": [
+  {
+   "step": 500,
+   "epoch": 1,
+   "loss": 2.506397008895874
+  },
+  {
+   "step": 1000,
+   "epoch": 2,
+   "loss": 2.2309703826904297
+  },
+  {
+   "step": 1500,
+   "epoch": 3,
+   "loss": 2.1604409217834473
+  },
+  {
+   "step": 2000,
+   "epoch": 4,
+   "loss": 2.1219658851623535
+  },
+  {
+   "step": 2500,
+   "epoch": 4,
+   "loss": 2.1268672943115234
+  },
+  {
+   "step": 3000,
+   "epoch": 5,
+   "loss": 2.1014046669006348
+  }
+ ],
+ "time_total_s": 47.39333545900445,
+ "peak_mem_mb": 585.607421875,
+ "device": "mps",
+ "params": 9066600
+}

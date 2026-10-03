@@ -1,0 +1,532 @@
+{
+ "name": "S9",
+ "cfg": {
+  "name": "S9",
+  "dim": 100,
+  "window": 10,
+  "negatives": 5,
+  "sample": 0.0001,
+  "min_count": 5,
+  "lr": 0.01,
+  "epochs": 5,
+  "batch_size": 32768,
+  "fraction": 1.0,
+  "seed": 42
+ },
+ "impl": "sgns-pytorch",
+ "corpus_tokens": 24608578,
+ "vocab": 99347,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 2.354964256286621,
+   "pairs": 151780794,
+   "tokens_after_subsampling": 14782105,
+   "time_s": 88.8745941659945,
+   "an_sem": 0.25190169689877123,
+   "an_syn": 0.2549091352603976,
+   "an_total": 0.254024274769734,
+   "wordsim": 0.6130346195238389,
+   "neighbors": {
+    "king": [
+     "heir",
+     "throne",
+     "vladislaus",
+     "\u00e6thelburg",
+     "b\u00e5rdsson"
+    ],
+    "france": [
+     "spain",
+     "french",
+     "belgium",
+     "netherlands",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "graphics",
+     "hardware"
+    ],
+    "good": [
+     "pretty",
+     "n't",
+     "you",
+     "kind",
+     "things"
+    ],
+    "january": [
+     "november",
+     "february",
+     "december",
+     "march",
+     "october"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "ran",
+     "starting",
+     "1-mile"
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "train_loss": 2.2783687114715576,
+   "pairs": 151776664,
+   "tokens_after_subsampling": 14781710,
+   "time_s": 88.51061020799534,
+   "an_sem": 0.32826214160327677,
+   "an_syn": 0.32577143554091964,
+   "an_total": 0.326504260996815,
+   "wordsim": 0.6471361600680801,
+   "neighbors": {
+    "king": [
+     "throne",
+     "reign",
+     "edward",
+     "vi",
+     "monarch"
+    ],
+    "france": [
+     "spain",
+     "belgium",
+     "italy",
+     "portugal",
+     "french"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "real-time",
+     "graphics"
+    ],
+    "good": [
+     "really",
+     "bad",
+     "kind",
+     "better",
+     "think"
+    ],
+    "january": [
+     "february",
+     "december",
+     "november",
+     "march",
+     "july"
+    ],
+    "run": [
+     "runs",
+     "ran",
+     "running",
+     "home",
+     "drive"
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "train_loss": 2.2484612464904785,
+   "pairs": 151805765,
+   "tokens_after_subsampling": 14780135,
+   "time_s": 88.58005508300266,
+   "an_sem": 0.38355763604447046,
+   "an_syn": 0.3605317721673375,
+   "an_total": 0.36730653352844966,
+   "wordsim": 0.6488190946671292,
+   "neighbors": {
+    "king": [
+     "throne",
+     "prince",
+     "son",
+     "reign",
+     "nephew"
+    ],
+    "france": [
+     "spain",
+     "belgium",
+     "italy",
+     "portugal",
+     "netherlands"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "hardware",
+     "real-time",
+     "computing"
+    ],
+    "good": [
+     "bad",
+     "things",
+     "really",
+     "luck",
+     "very"
+    ],
+    "january": [
+     "february",
+     "march",
+     "november",
+     "december",
+     "april"
+    ],
+    "run": [
+     "ran",
+     "running",
+     "runs",
+     "76-yard",
+     "drive"
+    ]
+   }
+  },
+  {
+   "epoch": 4,
+   "train_loss": 2.222726345062256,
+   "pairs": 151788913,
+   "tokens_after_subsampling": 14779910,
+   "time_s": 88.50590995800303,
+   "an_sem": 0.4280280866003511,
+   "an_syn": 0.41529454811562383,
+   "an_total": 0.41904106051476286,
+   "wordsim": 0.6669343386137485,
+   "neighbors": {
+    "king": [
+     "throne",
+     "prince",
+     "vi",
+     "heir",
+     "accession"
+    ],
+    "france": [
+     "spain",
+     "belgium",
+     "italy",
+     "french",
+     "portugal"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "real-time",
+     "hardware"
+    ],
+    "good": [
+     "bad",
+     "better",
+     "very",
+     "always",
+     "really"
+    ],
+    "january": [
+     "december",
+     "february",
+     "march",
+     "november",
+     "april"
+    ],
+    "run": [
+     "running",
+     "ran",
+     "runs",
+     "went",
+     "drive"
+    ]
+   }
+  },
+  {
+   "epoch": 5,
+   "train_loss": 2.2001280784606934,
+   "pairs": 151806402,
+   "tokens_after_subsampling": 14782555,
+   "time_s": 88.4467738339954,
+   "an_sem": 0.44499707431246344,
+   "an_syn": 0.4420051225759239,
+   "an_total": 0.4428854265300852,
+   "wordsim": 0.6714713696071304,
+   "neighbors": {
+    "king": [
+     "throne",
+     "heir",
+     "prince",
+     "vi",
+     "ruler"
+    ],
+    "france": [
+     "belgium",
+     "spain",
+     "italy",
+     "french",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "real-time",
+     "hardware"
+    ],
+    "good": [
+     "bad",
+     "very",
+     "really",
+     "better",
+     "pretty"
+    ],
+    "january": [
+     "february",
+     "december",
+     "november",
+     "march",
+     "april"
+    ],
+    "run": [
+     "running",
+     "ran",
+     "runs",
+     "drive",
+     "rush"
+    ]
+   }
+  }
+ ],
+ "steps": [
+  {
+   "step": 500,
+   "epoch": 1,
+   "loss": 2.5701661109924316
+  },
+  {
+   "step": 1000,
+   "epoch": 1,
+   "loss": 2.379272937774658
+  },
+  {
+   "step": 1500,
+   "epoch": 1,
+   "loss": 2.349731922149658
+  },
+  {
+   "step": 2000,
+   "epoch": 1,
+   "loss": 2.3356778621673584
+  },
+  {
+   "step": 2500,
+   "epoch": 1,
+   "loss": 2.3259782791137695
+  },
+  {
+   "step": 3000,
+   "epoch": 1,
+   "loss": 2.319746971130371
+  },
+  {
+   "step": 3500,
+   "epoch": 1,
+   "loss": 2.3141908645629883
+  },
+  {
+   "step": 4000,
+   "epoch": 1,
+   "loss": 2.309215545654297
+  },
+  {
+   "step": 4500,
+   "epoch": 1,
+   "loss": 2.3046560287475586
+  },
+  {
+   "step": 5000,
+   "epoch": 2,
+   "loss": 2.2784197330474854
+  },
+  {
+   "step": 5500,
+   "epoch": 2,
+   "loss": 2.281609535217285
+  },
+  {
+   "step": 6000,
+   "epoch": 2,
+   "loss": 2.2832493782043457
+  },
+  {
+   "step": 6500,
+   "epoch": 2,
+   "loss": 2.2817912101745605
+  },
+  {
+   "step": 7000,
+   "epoch": 2,
+   "loss": 2.2804858684539795
+  },
+  {
+   "step": 7500,
+   "epoch": 2,
+   "loss": 2.279036521911621
+  },
+  {
+   "step": 8000,
+   "epoch": 2,
+   "loss": 2.2769486904144287
+  },
+  {
+   "step": 8500,
+   "epoch": 2,
+   "loss": 2.275068759918213
+  },
+  {
+   "step": 9000,
+   "epoch": 2,
+   "loss": 2.2725822925567627
+  },
+  {
+   "step": 9500,
+   "epoch": 3,
+   "loss": 2.2459022998809814
+  },
+  {
+   "step": 10000,
+   "epoch": 3,
+   "loss": 2.2487921714782715
+  },
+  {
+   "step": 10500,
+   "epoch": 3,
+   "loss": 2.2508294582366943
+  },
+  {
+   "step": 11000,
+   "epoch": 3,
+   "loss": 2.250998020172119
+  },
+  {
+   "step": 11500,
+   "epoch": 3,
+   "loss": 2.2509779930114746
+  },
+  {
+   "step": 12000,
+   "epoch": 3,
+   "loss": 2.2499399185180664
+  },
+  {
+   "step": 12500,
+   "epoch": 3,
+   "loss": 2.2485926151275635
+  },
+  {
+   "step": 13000,
+   "epoch": 3,
+   "loss": 2.2472541332244873
+  },
+  {
+   "step": 13500,
+   "epoch": 3,
+   "loss": 2.2451577186584473
+  },
+  {
+   "step": 14000,
+   "epoch": 4,
+   "loss": 2.2205121517181396
+  },
+  {
+   "step": 14500,
+   "epoch": 4,
+   "loss": 2.2226245403289795
+  },
+  {
+   "step": 15000,
+   "epoch": 4,
+   "loss": 2.2243568897247314
+  },
+  {
+   "step": 15500,
+   "epoch": 4,
+   "loss": 2.224961519241333
+  },
+  {
+   "step": 16000,
+   "epoch": 4,
+   "loss": 2.224877119064331
+  },
+  {
+   "step": 16500,
+   "epoch": 4,
+   "loss": 2.224307060241699
+  },
+  {
+   "step": 17000,
+   "epoch": 4,
+   "loss": 2.222954511642456
+  },
+  {
+   "step": 17500,
+   "epoch": 4,
+   "loss": 2.221754789352417
+  },
+  {
+   "step": 18000,
+   "epoch": 4,
+   "loss": 2.2203667163848877
+  },
+  {
+   "step": 18500,
+   "epoch": 4,
+   "loss": 2.2190332412719727
+  },
+  {
+   "step": 19000,
+   "epoch": 5,
+   "loss": 2.2007720470428467
+  },
+  {
+   "step": 19500,
+   "epoch": 5,
+   "loss": 2.20180344581604
+  },
+  {
+   "step": 20000,
+   "epoch": 5,
+   "loss": 2.2019002437591553
+  },
+  {
+   "step": 20500,
+   "epoch": 5,
+   "loss": 2.2010772228240967
+  },
+  {
+   "step": 21000,
+   "epoch": 5,
+   "loss": 2.2006704807281494
+  },
+  {
+   "step": 21500,
+   "epoch": 5,
+   "loss": 2.199897050857544
+  },
+  {
+   "step": 22000,
+   "epoch": 5,
+   "loss": 2.1991117000579834
+  },
+  {
+   "step": 22500,
+   "epoch": 5,
+   "loss": 2.198390245437622
+  },
+  {
+   "step": 23000,
+   "epoch": 5,
+   "loss": 2.198136329650879
+  }
+ ],
+ "time_total_s": 442.9179432489909,
+ "peak_mem_mb": 2938.993896484375,
+ "device": "mps",
+ "params": 19869400
+}

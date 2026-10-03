@@ -1,0 +1,427 @@
+{
+ "name": "S3",
+ "cfg": {
+  "name": "S3",
+  "dim": 100,
+  "window": 5,
+  "negatives": 5,
+  "sample": 0.0001,
+  "min_count": 5,
+  "lr": 0.03,
+  "epochs": 5,
+  "batch_size": 32768,
+  "fraction": 1.0,
+  "seed": 42
+ },
+ "impl": "sgns-pytorch",
+ "corpus_tokens": 24608578,
+ "vocab": 99347,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 2.5637481212615967,
+   "pairs": 85181560,
+   "tokens_after_subsampling": 14782105,
+   "time_s": 49.73420508400159,
+   "an_sem": 0.06699824458747805,
+   "an_syn": 0.052689352360043906,
+   "an_total": 0.056899371610570716,
+   "wordsim": 0.46945992361413047,
+   "neighbors": {
+    "king": [
+     "duke",
+     "son",
+     "henry",
+     "marriage",
+     "heir"
+    ],
+    "france": [
+     "italy",
+     "french",
+     "spain",
+     "germany",
+     "norway"
+    ],
+    "computer": [
+     "graphics",
+     "microsoft",
+     "game",
+     "software",
+     "digital"
+    ],
+    "good": [
+     "things",
+     "really",
+     "think",
+     "thought",
+     "n't"
+    ],
+    "january": [
+     "april",
+     "february",
+     "december",
+     "august",
+     "september"
+    ],
+    "run": [
+     "went",
+     "up",
+     "ran",
+     "next",
+     "tied"
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "train_loss": 2.4360275268554688,
+   "pairs": 85174235,
+   "tokens_after_subsampling": 14782716,
+   "time_s": 49.9492629170054,
+   "an_sem": 0.1179052077238151,
+   "an_syn": 0.12586900841566045,
+   "an_total": 0.12352586726349316,
+   "wordsim": 0.5358042513822701,
+   "neighbors": {
+    "king": [
+     "throne",
+     "son",
+     "henry",
+     "reign",
+     "iv"
+    ],
+    "france": [
+     "italy",
+     "netherlands",
+     "belgium",
+     "spain",
+     "portugal"
+    ],
+    "computer": [
+     "software",
+     "controls",
+     "computers",
+     "real-time",
+     "interface"
+    ],
+    "good": [
+     "felt",
+     "always",
+     "kind",
+     "perfect",
+     "better"
+    ],
+    "january": [
+     "february",
+     "november",
+     "october",
+     "december",
+     "march"
+    ],
+    "run": [
+     "next",
+     "drive",
+     "runs",
+     "caught",
+     "touchdown"
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "train_loss": 2.3325631618499756,
+   "pairs": 85160865,
+   "tokens_after_subsampling": 14780602,
+   "time_s": 49.67705891600053,
+   "an_sem": 0.20567583382094792,
+   "an_syn": 0.21075740944017562,
+   "an_total": 0.20926228802616856,
+   "wordsim": 0.5615959498120368,
+   "neighbors": {
+    "king": [
+     "prince",
+     "edward",
+     "throne",
+     "henry",
+     "reign"
+    ],
+    "france": [
+     "italy",
+     "spain",
+     "austria",
+     "germany",
+     "britain"
+    ],
+    "computer": [
+     "interface",
+     "software",
+     "computers",
+     "graphics",
+     "graphical"
+    ],
+    "good": [
+     "we",
+     "really",
+     "saying",
+     "so",
+     "said"
+    ],
+    "january": [
+     "december",
+     "february",
+     "april",
+     "october",
+     "november"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "ran",
+     "went",
+     "straight"
+    ]
+   }
+  },
+  {
+   "epoch": 4,
+   "train_loss": 2.2453627586364746,
+   "pairs": 85171869,
+   "tokens_after_subsampling": 14779309,
+   "time_s": 49.63853895899956,
+   "an_sem": 0.3537156231714453,
+   "an_syn": 0.32808879131601415,
+   "an_total": 0.33562881983300336,
+   "wordsim": 0.612531101120134,
+   "neighbors": {
+    "king": [
+     "throne",
+     "prince",
+     "ruler",
+     "son",
+     "monarch"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "germany",
+     "french",
+     "belgium"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "interface",
+     "user",
+     "graphics"
+    ],
+    "good": [
+     "really",
+     "very",
+     "so",
+     "always",
+     "bad"
+    ],
+    "january": [
+     "december",
+     "march",
+     "april",
+     "february",
+     "november"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "ran",
+     "drive",
+     "next"
+    ]
+   }
+  },
+  {
+   "epoch": 5,
+   "train_loss": 2.173657178878784,
+   "pairs": 85183909,
+   "tokens_after_subsampling": 14782996,
+   "time_s": 49.68995858299604,
+   "an_sem": 0.4195435927442949,
+   "an_syn": 0.4199292596658129,
+   "an_total": 0.41981578720840146,
+   "wordsim": 0.6558199265053056,
+   "neighbors": {
+    "king": [
+     "prince",
+     "throne",
+     "edward",
+     "monarch",
+     "ruler"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "netherlands",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "interactive",
+     "interface",
+     "computing"
+    ],
+    "good": [
+     "pretty",
+     "very",
+     "better",
+     "bad",
+     "really"
+    ],
+    "january": [
+     "february",
+     "december",
+     "march",
+     "november",
+     "june"
+    ],
+    "run": [
+     "running",
+     "ran",
+     "runs",
+     "drive",
+     "home"
+    ]
+   }
+  }
+ ],
+ "steps": [
+  {
+   "step": 500,
+   "epoch": 1,
+   "loss": 2.6308274269104004
+  },
+  {
+   "step": 1000,
+   "epoch": 1,
+   "loss": 2.572556972503662
+  },
+  {
+   "step": 1500,
+   "epoch": 1,
+   "loss": 2.560682535171509
+  },
+  {
+   "step": 2000,
+   "epoch": 1,
+   "loss": 2.543172836303711
+  },
+  {
+   "step": 2500,
+   "epoch": 1,
+   "loss": 2.522250175476074
+  },
+  {
+   "step": 3000,
+   "epoch": 2,
+   "loss": 2.458435297012329
+  },
+  {
+   "step": 3500,
+   "epoch": 2,
+   "loss": 2.4557249546051025
+  },
+  {
+   "step": 4000,
+   "epoch": 2,
+   "loss": 2.4438369274139404
+  },
+  {
+   "step": 4500,
+   "epoch": 2,
+   "loss": 2.4287421703338623
+  },
+  {
+   "step": 5000,
+   "epoch": 2,
+   "loss": 2.4120540618896484
+  },
+  {
+   "step": 5500,
+   "epoch": 3,
+   "loss": 2.349280595779419
+  },
+  {
+   "step": 6000,
+   "epoch": 3,
+   "loss": 2.3482768535614014
+  },
+  {
+   "step": 6500,
+   "epoch": 3,
+   "loss": 2.340498685836792
+  },
+  {
+   "step": 7000,
+   "epoch": 3,
+   "loss": 2.3299310207366943
+  },
+  {
+   "step": 7500,
+   "epoch": 3,
+   "loss": 2.316922426223755
+  },
+  {
+   "step": 8000,
+   "epoch": 4,
+   "loss": 2.256436586380005
+  },
+  {
+   "step": 8500,
+   "epoch": 4,
+   "loss": 2.258232593536377
+  },
+  {
+   "step": 9000,
+   "epoch": 4,
+   "loss": 2.2536375522613525
+  },
+  {
+   "step": 9500,
+   "epoch": 4,
+   "loss": 2.2452590465545654
+  },
+  {
+   "step": 10000,
+   "epoch": 4,
+   "loss": 2.235415458679199
+  },
+  {
+   "step": 10500,
+   "epoch": 5,
+   "loss": 2.181715488433838
+  },
+  {
+   "step": 11000,
+   "epoch": 5,
+   "loss": 2.18230938911438
+  },
+  {
+   "step": 11500,
+   "epoch": 5,
+   "loss": 2.179365873336792
+  },
+  {
+   "step": 12000,
+   "epoch": 5,
+   "loss": 2.1740472316741943
+  },
+  {
+   "step": 12500,
+   "epoch": 5,
+   "loss": 2.167409896850586
+  }
+ ],
+ "time_total_s": 248.68902445900312,
+ "peak_mem_mb": 1882.944580078125,
+ "device": "mps",
+ "params": 19869400
+}
