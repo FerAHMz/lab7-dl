@@ -54,3 +54,6 @@ SGNS_ITERATIONS = {
 
 def sgns_config(name, **extra):
     return {"name": name, **SGNS_BASE, **SGNS_ITERATIONS.get(name, {}), **extra}
+
+# Configuracion final (seccion 4.2): mejores valores de las iteraciones, con d=100 para comparar con GloVe
+SGNS_BEST = {"negatives": 15, "epochs": 10}

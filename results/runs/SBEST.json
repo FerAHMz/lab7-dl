@@ -1,0 +1,832 @@
+{
+ "name": "SBEST",
+ "cfg": {
+  "name": "SBEST",
+  "dim": 100,
+  "window": 5,
+  "negatives": 15,
+  "sample": 0.0001,
+  "min_count": 5,
+  "lr": 0.01,
+  "epochs": 10,
+  "batch_size": 32768,
+  "fraction": 1.0,
+  "seed": 42
+ },
+ "impl": "sgns-pytorch",
+ "corpus_tokens": 24608578,
+ "vocab": 99347,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 3.3416218757629395,
+   "pairs": 85181560,
+   "tokens_after_subsampling": 14782105,
+   "time_s": 81.51982800000405,
+   "an_sem": 0.3130485664131071,
+   "an_syn": 0.2793023539456031,
+   "an_total": 0.289231298958423,
+   "wordsim": 0.6144402062808474,
+   "neighbors": {
+    "king": [
+     "cynewulf",
+     "ballala",
+     "cleph",
+     "constantius",
+     "osric"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "germany",
+     "portugal",
+     "austria"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "user",
+     "multi-core",
+     "minicomputer"
+    ],
+    "good": [
+     "bad",
+     "truly",
+     "fatuous",
+     "excellent",
+     "pretty"
+    ],
+    "january": [
+     "february",
+     "march",
+     "december",
+     "april",
+     "november"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "9-yard",
+     "ran",
+     "72-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "train_loss": 3.156548500061035,
+   "pairs": 85184478,
+   "tokens_after_subsampling": 14782672,
+   "time_s": 80.82275720799953,
+   "an_sem": 0.38472791105909887,
+   "an_syn": 0.34089523112574704,
+   "an_total": 0.35379185676164243,
+   "wordsim": 0.6452197635206465,
+   "neighbors": {
+    "king": [
+     "throne",
+     "son",
+     "prince",
+     "e\u00f3gan",
+     "vi"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "germany",
+     "portugal"
+    ],
+    "computer": [
+     "computers",
+     "real-time",
+     "desktop",
+     "pdp-1",
+     "computing"
+    ],
+    "good": [
+     "bad",
+     "kind",
+     "excellent",
+     "very",
+     "wonderful"
+    ],
+    "january": [
+     "june",
+     "march",
+     "december",
+     "october",
+     "july"
+    ],
+    "run": [
+     "ran",
+     "running",
+     "runs",
+     "drive",
+     "egersund"
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "train_loss": 3.1257681846618652,
+   "pairs": 85191636,
+   "tokens_after_subsampling": 14781992,
+   "time_s": 80.45681870800036,
+   "an_sem": 0.3791691047396138,
+   "an_syn": 0.3694352969874375,
+   "an_total": 0.37229921666523197,
+   "wordsim": 0.6336021081551676,
+   "neighbors": {
+    "king": [
+     "prince",
+     "iii",
+     "throne",
+     "edward",
+     "son"
+    ],
+    "france": [
+     "belgium",
+     "italy",
+     "germany",
+     "britain",
+     "spain"
+    ],
+    "computer": [
+     "computers",
+     "interface",
+     "software",
+     "hardware",
+     "cpus"
+    ],
+    "good": [
+     "bad",
+     "excellent",
+     "pretty",
+     "decent",
+     "always"
+    ],
+    "january": [
+     "february",
+     "april",
+     "december",
+     "november",
+     "june"
+    ],
+    "run": [
+     "runs",
+     "running",
+     "ran",
+     "75-yard",
+     "egersund"
+    ]
+   }
+  },
+  {
+   "epoch": 4,
+   "train_loss": 3.104722261428833,
+   "pairs": 85194130,
+   "tokens_after_subsampling": 14780981,
+   "time_s": 80.54111949999788,
+   "an_sem": 0.419836161497952,
+   "an_syn": 0.40029271862422244,
+   "an_total": 0.4060428682103813,
+   "wordsim": 0.6227206077017718,
+   "neighbors": {
+    "king": [
+     "vi",
+     "throne",
+     "reign",
+     "henry",
+     "prince"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "netherlands",
+     "britain"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "desktop",
+     "interface"
+    ],
+    "good": [
+     "bad",
+     "very",
+     "nice",
+     "decent",
+     "excellent"
+    ],
+    "january": [
+     "february",
+     "december",
+     "june",
+     "march",
+     "november"
+    ],
+    "run": [
+     "runs",
+     "running",
+     "ran",
+     "drive",
+     "home"
+    ]
+   }
+  },
+  {
+   "epoch": 5,
+   "train_loss": 3.0862677097320557,
+   "pairs": 85184891,
+   "tokens_after_subsampling": 14780076,
+   "time_s": 80.63743795799382,
+   "an_sem": 0.45523698069046226,
+   "an_syn": 0.40761068422978414,
+   "an_total": 0.4216234828268916,
+   "wordsim": 0.649203199416622,
+   "neighbors": {
+    "king": [
+     "throne",
+     "henry",
+     "edward",
+     "heir",
+     "queen"
+    ],
+    "france": [
+     "spain",
+     "belgium",
+     "italy",
+     "portugal",
+     "britain"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "desktop",
+     "interface"
+    ],
+    "good": [
+     "bad",
+     "nice",
+     "kind",
+     "excellent",
+     "pretty"
+    ],
+    "january": [
+     "february",
+     "april",
+     "december",
+     "march",
+     "november"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "ran",
+     "drive",
+     "home"
+    ]
+   }
+  },
+  {
+   "epoch": 6,
+   "train_loss": 3.069809913635254,
+   "pairs": 85173074,
+   "tokens_after_subsampling": 14781281,
+   "time_s": 80.69855424999696,
+   "an_sem": 0.4496781743709772,
+   "an_syn": 0.4331015977558239,
+   "an_total": 0.43797882413704053,
+   "wordsim": 0.6477156189523435,
+   "neighbors": {
+    "king": [
+     "prince",
+     "throne",
+     "reign",
+     "vi",
+     "nephew"
+    ],
+    "france": [
+     "spain",
+     "belgium",
+     "italy",
+     "netherlands",
+     "french"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "hardware",
+     "desktop",
+     "computing"
+    ],
+    "good": [
+     "bad",
+     "pretty",
+     "luck",
+     "excellent",
+     "nice"
+    ],
+    "january": [
+     "december",
+     "february",
+     "april",
+     "july",
+     "june"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "ran",
+     "drive",
+     "home"
+    ]
+   }
+  },
+  {
+   "epoch": 7,
+   "train_loss": 3.053464412689209,
+   "pairs": 85172544,
+   "tokens_after_subsampling": 14781034,
+   "time_s": 81.27264841699798,
+   "an_sem": 0.4751316559391457,
+   "an_syn": 0.4487132577143554,
+   "an_total": 0.4564861840406301,
+   "wordsim": 0.6491265710693914,
+   "neighbors": {
+    "king": [
+     "throne",
+     "vi",
+     "prince",
+     "nephew",
+     "queen"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "portugal",
+     "britain"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "real-time",
+     "interface"
+    ],
+    "good": [
+     "bad",
+     "luck",
+     "kind",
+     "excellent",
+     "nice"
+    ],
+    "january": [
+     "december",
+     "february",
+     "march",
+     "november",
+     "april"
+    ],
+    "run": [
+     "running",
+     "ran",
+     "runs",
+     "drive",
+     "home"
+    ]
+   }
+  },
+  {
+   "epoch": 8,
+   "train_loss": 3.037645101547241,
+   "pairs": 85159522,
+   "tokens_after_subsampling": 14780480,
+   "time_s": 76.68089474999579,
+   "an_sem": 0.4853715623171445,
+   "an_syn": 0.46517868032686915,
+   "an_total": 0.4711199104760265,
+   "wordsim": 0.6531793439258772,
+   "neighbors": {
+    "king": [
+     "throne",
+     "vi",
+     "monarch",
+     "prince",
+     "reign"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "portugal",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "graphics",
+     "real-time",
+     "computing"
+    ],
+    "good": [
+     "bad",
+     "excellent",
+     "decent",
+     "nice",
+     "luck"
+    ],
+    "january": [
+     "february",
+     "december",
+     "march",
+     "april",
+     "november"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "ran",
+     "drive",
+     "home"
+    ]
+   }
+  },
+  {
+   "epoch": 9,
+   "train_loss": 3.022522449493408,
+   "pairs": 85162550,
+   "tokens_after_subsampling": 14782194,
+   "time_s": 77.19577283400577,
+   "an_sem": 0.49824458747805733,
+   "an_syn": 0.47310647639956094,
+   "an_total": 0.4805027115434277,
+   "wordsim": 0.6576502021454388,
+   "neighbors": {
+    "king": [
+     "monarch",
+     "nephew",
+     "vi",
+     "throne",
+     "reign"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "portugal",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "real-time",
+     "hardware"
+    ],
+    "good": [
+     "bad",
+     "excellent",
+     "luck",
+     "kind",
+     "nice"
+    ],
+    "january": [
+     "february",
+     "december",
+     "april",
+     "march",
+     "november"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "ran",
+     "drive",
+     "home"
+    ]
+   }
+  },
+  {
+   "epoch": 10,
+   "train_loss": 3.00860857963562,
+   "pairs": 85152782,
+   "tokens_after_subsampling": 14781718,
+   "time_s": 77.0176613750009,
+   "an_sem": 0.502633118782914,
+   "an_syn": 0.47676545920234176,
+   "an_total": 0.4843763450116209,
+   "wordsim": 0.6636323034427866,
+   "neighbors": {
+    "king": [
+     "throne",
+     "vi",
+     "nephew",
+     "reign",
+     "monarch"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "portugal",
+     "germany"
+    ],
+    "computer": [
+     "computers",
+     "software",
+     "computing",
+     "real-time",
+     "hardware"
+    ],
+    "good": [
+     "bad",
+     "excellent",
+     "luck",
+     "decent",
+     "nice"
+    ],
+    "january": [
+     "february",
+     "december",
+     "march",
+     "november",
+     "april"
+    ],
+    "run": [
+     "running",
+     "runs",
+     "ran",
+     "drive",
+     "home"
+    ]
+   }
+  }
+ ],
+ "steps": [
+  {
+   "step": 500,
+   "epoch": 1,
+   "loss": 3.7979156970977783
+  },
+  {
+   "step": 1000,
+   "epoch": 1,
+   "loss": 3.295825958251953
+  },
+  {
+   "step": 1500,
+   "epoch": 1,
+   "loss": 3.2354726791381836
+  },
+  {
+   "step": 2000,
+   "epoch": 1,
+   "loss": 3.211451530456543
+  },
+  {
+   "step": 2500,
+   "epoch": 1,
+   "loss": 3.197474956512451
+  },
+  {
+   "step": 3000,
+   "epoch": 2,
+   "loss": 3.1495444774627686
+  },
+  {
+   "step": 3500,
+   "epoch": 2,
+   "loss": 3.1574866771698
+  },
+  {
+   "step": 4000,
+   "epoch": 2,
+   "loss": 3.1591360569000244
+  },
+  {
+   "step": 4500,
+   "epoch": 2,
+   "loss": 3.1586999893188477
+  },
+  {
+   "step": 5000,
+   "epoch": 2,
+   "loss": 3.157123327255249
+  },
+  {
+   "step": 5500,
+   "epoch": 3,
+   "loss": 3.1092445850372314
+  },
+  {
+   "step": 6000,
+   "epoch": 3,
+   "loss": 3.1207590103149414
+  },
+  {
+   "step": 6500,
+   "epoch": 3,
+   "loss": 3.1277430057525635
+  },
+  {
+   "step": 7000,
+   "epoch": 3,
+   "loss": 3.1300342082977295
+  },
+  {
+   "step": 7500,
+   "epoch": 3,
+   "loss": 3.131359577178955
+  },
+  {
+   "step": 8000,
+   "epoch": 4,
+   "loss": 3.0852160453796387
+  },
+  {
+   "step": 8500,
+   "epoch": 4,
+   "loss": 3.0969483852386475
+  },
+  {
+   "step": 9000,
+   "epoch": 4,
+   "loss": 3.105365753173828
+  },
+  {
+   "step": 9500,
+   "epoch": 4,
+   "loss": 3.108823299407959
+  },
+  {
+   "step": 10000,
+   "epoch": 4,
+   "loss": 3.110504150390625
+  },
+  {
+   "step": 10500,
+   "epoch": 5,
+   "loss": 3.0654537677764893
+  },
+  {
+   "step": 11000,
+   "epoch": 5,
+   "loss": 3.076096534729004
+  },
+  {
+   "step": 11500,
+   "epoch": 5,
+   "loss": 3.085728168487549
+  },
+  {
+   "step": 12000,
+   "epoch": 5,
+   "loss": 3.089688777923584
+  },
+  {
+   "step": 12500,
+   "epoch": 5,
+   "loss": 3.0915677547454834
+  },
+  {
+   "step": 13000,
+   "epoch": 5,
+   "loss": 3.0924015045166016
+  },
+  {
+   "step": 13500,
+   "epoch": 6,
+   "loss": 3.0575034618377686
+  },
+  {
+   "step": 14000,
+   "epoch": 6,
+   "loss": 3.06834077835083
+  },
+  {
+   "step": 14500,
+   "epoch": 6,
+   "loss": 3.071585178375244
+  },
+  {
+   "step": 15000,
+   "epoch": 6,
+   "loss": 3.0745270252227783
+  },
+  {
+   "step": 15500,
+   "epoch": 6,
+   "loss": 3.0757839679718018
+  },
+  {
+   "step": 16000,
+   "epoch": 7,
+   "loss": 3.0419130325317383
+  },
+  {
+   "step": 16500,
+   "epoch": 7,
+   "loss": 3.050476551055908
+  },
+  {
+   "step": 17000,
+   "epoch": 7,
+   "loss": 3.055009603500366
+  },
+  {
+   "step": 17500,
+   "epoch": 7,
+   "loss": 3.057058572769165
+  },
+  {
+   "step": 18000,
+   "epoch": 7,
+   "loss": 3.0587971210479736
+  },
+  {
+   "step": 18500,
+   "epoch": 8,
+   "loss": 3.026902914047241
+  },
+  {
+   "step": 19000,
+   "epoch": 8,
+   "loss": 3.0338492393493652
+  },
+  {
+   "step": 19500,
+   "epoch": 8,
+   "loss": 3.038515567779541
+  },
+  {
+   "step": 20000,
+   "epoch": 8,
+   "loss": 3.0403525829315186
+  },
+  {
+   "step": 20500,
+   "epoch": 8,
+   "loss": 3.041762351989746
+  },
+  {
+   "step": 21000,
+   "epoch": 9,
+   "loss": 3.014803647994995
+  },
+  {
+   "step": 21500,
+   "epoch": 9,
+   "loss": 3.0188794136047363
+  },
+  {
+   "step": 22000,
+   "epoch": 9,
+   "loss": 3.0223915576934814
+  },
+  {
+   "step": 22500,
+   "epoch": 9,
+   "loss": 3.024305820465088
+  },
+  {
+   "step": 23000,
+   "epoch": 9,
+   "loss": 3.025026559829712
+  },
+  {
+   "step": 23500,
+   "epoch": 10,
+   "loss": 3.00569486618042
+  },
+  {
+   "step": 24000,
+   "epoch": 10,
+   "loss": 3.0076634883880615
+  },
+  {
+   "step": 24500,
+   "epoch": 10,
+   "loss": 3.008892774581909
+  },
+  {
+   "step": 25000,
+   "epoch": 10,
+   "loss": 3.0086703300476074
+  },
+  {
+   "step": 25500,
+   "epoch": 10,
+   "loss": 3.009061336517334
+  }
+ ],
+ "time_total_s": 796.843492999993,
+ "peak_mem_mb": 1884.3798828125,
+ "device": "mps",
+ "params": 19869400
+}

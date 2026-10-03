@@ -1,0 +1,555 @@
+{
+ "name": "GENSIM",
+ "cfg": {
+  "name": "GENSIM",
+  "dim": 100,
+  "window": 5,
+  "negatives": 15,
+  "sample": 0.0001,
+  "min_count": 5,
+  "lr": 0.01,
+  "epochs": 10,
+  "batch_size": 32768,
+  "fraction": 1.0,
+  "seed": 42,
+  "alpha": 0.025
+ },
+ "impl": "gensim-word2vec",
+ "corpus_tokens": 24608578,
+ "vocab": 99347,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss_sum": 17132092.0,
+   "time_s": 15.358611791998555,
+   "an_sem": 0.09479227618490345,
+   "an_syn": 0.16916697158190022,
+   "an_total": 0.1472841525350779,
+   "wordsim": 0.5308671571326112,
+   "neighbors": {
+    "king": [
+     "\u00e6thelred",
+     "domnall",
+     "sigismund",
+     "constantine",
+     "\u00e6thelstan"
+    ],
+    "france": [
+     "belgium",
+     "austria",
+     "portugal",
+     "spain",
+     "italy"
+    ],
+    "computer": [
+     "spacewar",
+     "software",
+     "computers",
+     "general-purpose",
+     "architectures"
+    ],
+    "good": [
+     "unbelievable",
+     "pleasing",
+     "tidy",
+     "stale",
+     "bad"
+    ],
+    "january": [
+     "february",
+     "september",
+     "april",
+     "june",
+     "october"
+    ],
+    "run": [
+     "three-run",
+     "walk-off",
+     "two-run",
+     "game-tying",
+     "one-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "train_loss_sum": 14616494.0,
+   "time_s": 15.474990791000891,
+   "an_sem": 0.1588648332358104,
+   "an_syn": 0.27552140504939626,
+   "an_total": 0.24119824395282774,
+   "wordsim": 0.5993479987831372,
+   "neighbors": {
+    "king": [
+     "domnall",
+     "\u00e6thelred",
+     "1189",
+     "eadberht",
+     "ealdred"
+    ],
+    "france": [
+     "spain",
+     "portugal",
+     "italy",
+     "gaulle",
+     "belgium"
+    ],
+    "computer": [
+     "computers",
+     "computing",
+     "architectures",
+     "minicomputer",
+     "pdp-1"
+    ],
+    "good": [
+     "darn",
+     "truthful",
+     "delightfully",
+     "down-to-earth",
+     "life-affirming"
+    ],
+    "january": [
+     "november",
+     "february",
+     "april",
+     "september",
+     "december"
+    ],
+    "run": [
+     "walk-off",
+     "unearned",
+     "three-run",
+     "inside-the-park",
+     "game-tying"
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "train_loss_sum": 14545898.0,
+   "time_s": 15.67878912499873,
+   "an_sem": 0.2141603276770041,
+   "an_syn": 0.33260153677277715,
+   "an_total": 0.29775329258844796,
+   "wordsim": 0.6232920873326432,
+   "neighbors": {
+    "king": [
+     "ealdred",
+     "1087",
+     "bolingbroke",
+     "1057",
+     "1329"
+    ],
+    "france": [
+     "spain",
+     "belgium",
+     "austria",
+     "portugal",
+     "italy"
+    ],
+    "computer": [
+     "computers",
+     "computing",
+     "general-purpose",
+     "minicomputer",
+     "architectures"
+    ],
+    "good": [
+     "darn",
+     "humanizing",
+     "freakin",
+     "geeky",
+     "craved"
+    ],
+    "january": [
+     "november",
+     "september",
+     "february",
+     "december",
+     "june"
+    ],
+    "run": [
+     "walk-off",
+     "unearned",
+     "inside-the-park",
+     "pinch-hit",
+     "2-run"
+    ]
+   }
+  },
+  {
+   "epoch": 4,
+   "train_loss_sum": 14612032.0,
+   "time_s": 15.759485999995377,
+   "an_sem": 0.2638970157987127,
+   "an_syn": 0.3712647883888279,
+   "an_total": 0.3396746147886718,
+   "wordsim": 0.6251196115060895,
+   "neighbors": {
+    "king": [
+     "1057",
+     "ealdred",
+     "eadberht",
+     "ecgfrith",
+     "ragnaill"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "austria",
+     "portugal",
+     "belgium"
+    ],
+    "computer": [
+     "computers",
+     "cfds",
+     "architectures",
+     "openfirmware",
+     "minicomputer"
+    ],
+    "good": [
+     "bad",
+     "humanizing",
+     "truthful",
+     "fleetingly",
+     "freakin"
+    ],
+    "january": [
+     "june",
+     "december",
+     "november",
+     "july",
+     "march"
+    ],
+    "run": [
+     "inside-the-park",
+     "unearned",
+     "2-run",
+     "walk-off",
+     "eighth-inning"
+    ]
+   }
+  },
+  {
+   "epoch": 5,
+   "train_loss_sum": 7709356.0,
+   "time_s": 15.936477625000407,
+   "an_sem": 0.3045640725570509,
+   "an_syn": 0.40858641297719234,
+   "an_total": 0.3779805457519153,
+   "wordsim": 0.6384257044039915,
+   "neighbors": {
+    "king": [
+     "ealdred",
+     "ragnaill",
+     "athelstan",
+     "ecgfrith",
+     "\u00e6lfgifu"
+    ],
+    "france": [
+     "spain",
+     "belgium",
+     "italy",
+     "portugal",
+     "austria"
+    ],
+    "computer": [
+     "computers",
+     "computing",
+     "multi-core",
+     "dsp",
+     "cfds"
+    ],
+    "good": [
+     "freakin",
+     "humanizing",
+     "empathetic",
+     "appreciates",
+     "enviable"
+    ],
+    "january": [
+     "june",
+     "february",
+     "november",
+     "march",
+     "september"
+    ],
+    "run": [
+     "inside-the-park",
+     "2-run",
+     "walk-off",
+     "unearned",
+     "conforto"
+    ]
+   }
+  },
+  {
+   "epoch": 6,
+   "train_loss_sum": 2499632.0,
+   "time_s": 16.405942792000133,
+   "an_sem": 0.33060269163253364,
+   "an_syn": 0.43127210635443347,
+   "an_total": 0.40165275027976244,
+   "wordsim": 0.6527052662157223,
+   "neighbors": {
+    "king": [
+     "ealdred",
+     "ecgfrith",
+     "harefoot",
+     "ragnaill",
+     "athelstan"
+    ],
+    "france": [
+     "spain",
+     "portugal",
+     "italy",
+     "belgium",
+     "austria"
+    ],
+    "computer": [
+     "computers",
+     "cfds",
+     "computing",
+     "openfirmware",
+     "gromacs"
+    ],
+    "good": [
+     "bad",
+     "freakin",
+     "humanizing",
+     "enviable",
+     "excellent"
+    ],
+    "january": [
+     "february",
+     "july",
+     "june",
+     "september",
+     "december"
+    ],
+    "run": [
+     "inside-the-park",
+     "unearned",
+     "2-run",
+     "eighth-inning",
+     "conforto"
+    ]
+   }
+  },
+  {
+   "epoch": 7,
+   "train_loss_sum": 2417192.0,
+   "time_s": 15.929192625000724,
+   "an_sem": 0.3721474546518432,
+   "an_syn": 0.45895840956214173,
+   "an_total": 0.43341654471894636,
+   "wordsim": 0.6631583633059661,
+   "neighbors": {
+    "king": [
+     "ragnaill",
+     "athelstan",
+     "ealdred",
+     "rakoto",
+     "uncrowned"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "portugal",
+     "austria",
+     "belgium"
+    ],
+    "computer": [
+     "computers",
+     "openfirmware",
+     "cfds",
+     "mpi",
+     "multi-core"
+    ],
+    "good": [
+     "freakin",
+     "bad",
+     "humanizing",
+     "underwhelmed",
+     "decent"
+    ],
+    "january": [
+     "december",
+     "february",
+     "november",
+     "march",
+     "october"
+    ],
+    "run": [
+     "2-run",
+     "inside-the-park",
+     "conforto",
+     "unearned",
+     "eighth-inning"
+    ]
+   }
+  },
+  {
+   "epoch": 8,
+   "train_loss_sum": 2251936.0,
+   "time_s": 16.006043207999028,
+   "an_sem": 0.39613809245172615,
+   "an_syn": 0.47310647639956094,
+   "an_total": 0.4504605319789963,
+   "wordsim": 0.6749697219262035,
+   "neighbors": {
+    "king": [
+     "ragnaill",
+     "harefoot",
+     "athelstan",
+     "donnchada",
+     "uncrowned"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "austria",
+     "netherlands"
+    ],
+    "computer": [
+     "computers",
+     "desktop",
+     "cfds",
+     "mpi",
+     "openfirmware"
+    ],
+    "good": [
+     "excellent",
+     "bad",
+     "freakin",
+     "perfect",
+     "decent"
+    ],
+    "january": [
+     "december",
+     "february",
+     "july",
+     "june",
+     "april"
+    ],
+    "run": [
+     "2-run",
+     "inside-the-park",
+     "eighth-inning",
+     "conforto",
+     "unearned"
+    ]
+   }
+  },
+  {
+   "epoch": 9,
+   "train_loss_sum": 2117808.0,
+   "time_s": 15.996387749997666,
+   "an_sem": 0.422469280280866,
+   "an_syn": 0.49091352603976096,
+   "an_total": 0.470775587501076,
+   "wordsim": 0.6722077996658822,
+   "neighbors": {
+    "king": [
+     "athelstan",
+     "harefoot",
+     "uncrowned",
+     "ragnaill",
+     "ecgfrith"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "portugal",
+     "austria"
+    ],
+    "computer": [
+     "computers",
+     "desktop",
+     "openfirmware",
+     "mpi",
+     "cfds"
+    ],
+    "good": [
+     "bad",
+     "excellent",
+     "freakin",
+     "decent",
+     "enviable"
+    ],
+    "january": [
+     "december",
+     "february",
+     "november",
+     "july",
+     "april"
+    ],
+    "run": [
+     "running",
+     "2-run",
+     "inside-the-park",
+     "76-yard",
+     "72-yard"
+    ]
+   }
+  },
+  {
+   "epoch": 10,
+   "train_loss_sum": 1969528.0,
+   "time_s": 16.211006834004365,
+   "an_sem": 0.4376828554710357,
+   "an_syn": 0.4948164410293938,
+   "an_total": 0.4780063699750366,
+   "wordsim": 0.6715182821141423,
+   "neighbors": {
+    "king": [
+     "harefoot",
+     "uncrowned",
+     "rakoto",
+     "curthose",
+     "bagler"
+    ],
+    "france": [
+     "spain",
+     "italy",
+     "belgium",
+     "austria",
+     "portugal"
+    ],
+    "computer": [
+     "computers",
+     "desktop",
+     "mpi",
+     "minicomputer",
+     "pdp-1"
+    ],
+    "good": [
+     "bad",
+     "excellent",
+     "decent",
+     "freakin",
+     "glutton"
+    ],
+    "january": [
+     "december",
+     "february",
+     "march",
+     "november",
+     "april"
+    ],
+    "run": [
+     "running",
+     "inside-the-park",
+     "2-run",
+     "76-yard",
+     "72-yard"
+    ]
+   }
+  }
+ ],
+ "time_total_s": 162.8136922920021,
+ "workers": 12,
+ "vocab_identical": true
+}
