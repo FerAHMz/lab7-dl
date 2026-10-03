@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+**/data/processed/
+**/data/interim/
+data/raw/*
+!data/raw/.gitkeep
+results/checkpoints/
+*.log
+.DS_Store
+.env*
+.claude/settings.local.json
+results/vectors/*
+!results/vectors/sgns_best_d100.kv
+!results/vectors/sgns_best_d100.kv.vectors.npy
