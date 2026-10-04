@@ -1,0 +1,61 @@
+tipo,analogía,esperada,modelo,top-5,rango,"cos(d, t)"
+género,man:king :: woman:?,queen,SGNS (propio),"queen (0.68), consort (0.64), monarch (0.60), coronation (0.60), throne (0.60)",1,0.6796330809593201
+género,man:king :: woman:?,queen,Word2Vec gensim,"consort (0.73), jagiellon (0.72), queen (0.70), eanflæd (0.68), regnant (0.68)",3,0.7016512155532837
+género,man:king :: woman:?,queen,GloVe 6B,"queen (0.77), monarch (0.68), throne (0.68), daughter (0.66), princess (0.65)",1,0.7698541283607483
+género,brother:sister :: father:?,mother,SGNS (propio),"mother (0.73), daughter (0.69), sisters (0.68), her (0.66), husband (0.65)",1,0.7329455614089966
+género,brother:sister :: father:?,mother,Word2Vec gensim,"mother (0.74), 7-year-old (0.74), sisters (0.71), daughter (0.69), homemaker (0.69)",1,0.7406454682350159
+género,brother:sister :: father:?,mother,GloVe 6B,"mother (0.90), daughter (0.83), wife (0.80), grandmother (0.79), her (0.76)",1,0.8977512121200562
+género,actor:actress :: prince:?,princess,SGNS (propio),"princess (0.74), queen (0.66), duchess (0.66), empress (0.63), beatrice (0.63)",1,0.7403086423873901
+género,actor:actress :: prince:?,princess,Word2Vec gensim,"princess (0.76), queen (0.71), duchess (0.69), saxe-coburg-saalfeld (0.67), hrh (0.67)",1,0.7613692283630371
+género,actor:actress :: prince:?,princess,GloVe 6B,"princess (0.82), queen (0.72), duchess (0.68), daughter (0.67), niece (0.63)",1,0.8237580060958862
+país–capital,france:paris :: japan:?,tokyo,SGNS (propio),"tokyo (0.79), osaka (0.62), nagoya (0.62), nippon (0.61), sapporo (0.58)",1,0.7915502190589905
+país–capital,france:paris :: japan:?,tokyo,Word2Vec gensim,"tokyo (0.79), sapporo (0.69), nagoya (0.68), osaka (0.67), tōkyō (0.66)",1,0.79410320520401
+país–capital,france:paris :: japan:?,tokyo,GloVe 6B,"tokyo (0.90), osaka (0.74), japanese (0.71), seoul (0.69), shanghai (0.67)",1,0.8993858695030212
+país–capital,germany:berlin :: italy:?,rome,SGNS (propio),"venice (0.69), milan (0.68), vienna (0.65), florence (0.62), prague (0.62)",8,0.5886409878730774
+país–capital,germany:berlin :: italy:?,rome,Word2Vec gensim,"venice (0.71), vienna (0.69), milan (0.68), egitto (0.67), alhambra (0.67)",29,0.6167029142379761
+país–capital,germany:berlin :: italy:?,rome,GloVe 6B,"venice (0.80), rome (0.80), naples (0.72), milan (0.71), turin (0.69)",2,0.7955614328384399
+país–capital,spain:madrid :: russia:?,moscow,SGNS (propio),"moscow (0.68), spartak (0.63), czechoslovak (0.61), mikhail (0.60), russian (0.60)",1,0.6770153045654297
+país–capital,spain:madrid :: russia:?,moscow,Word2Vec gensim,"spartak (0.69), kyiv (0.68), moscow (0.67), galina (0.63), latvia (0.61)",3,0.6727573275566101
+país–capital,spain:madrid :: russia:?,moscow,GloVe 6B,"moscow (0.86), kiev (0.74), kremlin (0.67), tehran (0.66), russian (0.66)",1,0.8552454113960266
+país–gentilicio,france:french :: germany:?,german,SGNS (propio),"german (0.87), austrian (0.73), italian (0.72), dutch (0.71), russian (0.70)",1,0.8690785765647888
+país–gentilicio,france:french :: germany:?,german,Word2Vec gensim,"german (0.88), dutch (0.77), russian (0.76), austrian (0.74), italian (0.73)",1,0.8787838816642761
+país–gentilicio,france:french :: germany:?,german,GloVe 6B,"german (0.96), austrian (0.78), swiss (0.77), swedish (0.73), polish (0.73)",1,0.959672749042511
+país–gentilicio,china:chinese :: mexico:?,mexican,SGNS (propio),"mexican (0.78), spanish (0.65), veracruz (0.61), yucatán (0.61), tamaulipas (0.61)",1,0.7810344099998474
+país–gentilicio,china:chinese :: mexico:?,mexican,Word2Vec gensim,"mexican (0.81), spanish (0.68), tlaxcala (0.67), mexica (0.66), tamaulipas (0.65)",1,0.8055803775787354
+país–gentilicio,china:chinese :: mexico:?,mexican,GloVe 6B,"mexican (0.91), puerto (0.75), spanish (0.73), brazilian (0.71), cuban (0.70)",1,0.9106160402297974
+país–gentilicio,england:english :: brazil:?,brazilian,SGNS (propio),"brazilian (0.72), portuguese (0.63), pronunciation (0.58), argentine (0.57), spanish (0.57)",1,0.723657488822937
+país–gentilicio,england:english :: brazil:?,brazilian,Word2Vec gensim,"tagalog (0.71), brazilian (0.70), portuguese (0.70), caló (0.65), chilean (0.63)",2,0.7015203237533569
+país–gentilicio,england:english :: brazil:?,brazilian,GloVe 6B,"brazilian (0.77), portuguese (0.68), latin (0.67), spanish (0.67), mexican (0.67)",1,0.7742795944213867
+comparativo/superlativo,good:better :: bad:?,worse,SGNS (propio),"worse (0.68), bigger (0.62), harder (0.55), much (0.53), like (0.53)",1,0.6808405518531799
+comparativo/superlativo,good:better :: bad:?,worse,Word2Vec gensim,"worse (0.72), bigger (0.67), fared (0.60), bother (0.60), delude (0.59)",1,0.7235983610153198
+comparativo/superlativo,good:better :: bad:?,worse,GloVe 6B,"worse (0.84), too (0.75), even (0.73), getting (0.73), because (0.73)",1,0.8442932367324829
+comparativo/superlativo,big:biggest :: small:?,smallest,SGNS (propio),"large (0.66), largest (0.59), significant (0.57), substantial (0.56), huge (0.54)",11,0.4942939877510071
+comparativo/superlativo,big:biggest :: small:?,smallest,Word2Vec gensim,"largest (0.63), large (0.62), smallest (0.57), sizeable (0.54), marginal (0.54)",3,0.5727941989898682
+comparativo/superlativo,big:biggest :: small:?,smallest,GloVe 6B,"largest (0.87), large (0.77), larger (0.70), smaller (0.69), main (0.67)",11,0.6361110210418701
+comparativo/superlativo,fast:faster :: strong:?,stronger,SGNS (propio),"stronger (0.68), weak (0.57), weaker (0.57), surge (0.55), strengthening (0.54)",1,0.6772763729095459
+comparativo/superlativo,fast:faster :: strong:?,stronger,Word2Vec gensim,"stronger (0.71), weaker (0.63), strongest (0.60), lessening (0.59), perceivable (0.57)",1,0.7061619758605957
+comparativo/superlativo,fast:faster :: strong:?,stronger,GloVe 6B,"stronger (0.81), robust (0.67), weaker (0.67), weak (0.66), growth (0.65)",1,0.8069435358047485
+tiempo verbal,walk:walked :: swim:?,swam,SGNS (propio),"swam (0.58), swimming (0.48), pulled (0.48), waded (0.48), yelled (0.46)",1,0.5847175717353821
+tiempo verbal,walk:walked :: swim:?,swam,Word2Vec gensim,"swam (0.61), paddled (0.52), all-male (0.51), jumped (0.51), pulled (0.50)",1,0.6058951020240784
+tiempo verbal,walk:walked :: swim:?,swam,GloVe 6B,"swam (0.75), swimming (0.61), drowned (0.58), overboard (0.57), rowed (0.54)",1,0.7477165460586548
+tiempo verbal,go:went :: take:?,took,SGNS (propio),"took (0.88), taking (0.76), secured (0.66), came (0.65), place (0.65)",1,0.8834915161132812
+tiempo verbal,go:went :: take:?,took,Word2Vec gensim,"took (0.89), taking (0.77), came (0.69), handed (0.65), gained (0.62)",1,0.8937126398086548
+tiempo verbal,go:went :: take:?,took,GloVe 6B,"took (0.94), came (0.84), taking (0.81), later (0.81), first (0.81)",1,0.943284273147583
+tiempo verbal,playing:played :: writing:?,wrote,SGNS (propio),"wrote (0.83), writer (0.73), written (0.72), penned (0.66), commented (0.65)",1,0.8255231380462646
+tiempo verbal,playing:played :: writing:?,wrote,Word2Vec gensim,"wrote (0.82), writer (0.74), written (0.72), penned (0.71), mulei (0.71)",1,0.817285418510437
+tiempo verbal,playing:played :: writing:?,wrote,GloVe 6B,"wrote (0.82), written (0.79), essay (0.74), book (0.74), published (0.74)",1,0.8228293657302856
+plural,car:cars :: child:?,children,SGNS (propio),"children (0.68), daughters (0.62), siblings (0.61), daughter (0.59), parents (0.59)",1,0.6833212375640869
+plural,car:cars :: child:?,children,Word2Vec gensim,"children (0.72), mothers (0.64), grandmothers (0.63), birth (0.62), parents (0.62)",1,0.7162243723869324
+plural,car:cars :: child:?,children,GloVe 6B,"children (0.82), mothers (0.72), parents (0.69), babies (0.68), sex (0.67)",1,0.8238248825073242
+plural,mouse:mice :: man:?,men,SGNS (propio),"woman (0.51), suppose (0.50), tremble (0.49), young (0.48), courage (0.48)",24,0.4358752369880676
+plural,mouse:mice :: man:?,men,Word2Vec gensim,"prim (0.58), indecently (0.58), woman (0.57), well-dressed (0.57), hardworking (0.56)",118,0.4926818609237671
+plural,mouse:mice :: man:?,men,GloVe 6B,"men (0.68), believed (0.66), woman (0.65), young (0.64), being (0.63)",1,0.676322340965271
+plural,city:cities :: country:?,countries,SGNS (propio),"countries (0.69), nation (0.58), regions (0.56), abroad (0.56), provinces (0.55)",1,0.6914504766464233
+plural,city:cities :: country:?,countries,Word2Vec gensim,"countries (0.71), industrialized (0.63), nation (0.62), poorest (0.61), europe (0.60)",1,0.7126626968383789
+plural,city:cities :: country:?,countries,GloVe 6B,"countries (0.81), nation (0.75), regions (0.73), europe (0.70), continent (0.70)",1,0.8082405924797058
+empresa–producto,microsoft:windows :: apple:?,iphone,SGNS (propio),"roof (0.56), railings (0.53), glazed (0.53), porticoes (0.53), window (0.52)",1132,0.326437771320343
+empresa–producto,microsoft:windows :: apple:?,iphone,Word2Vec gensim,"mullioned (0.61), wood-framed (0.60), pecan (0.60), wainscot (0.59), mullion (0.59)",12955,0.29262775182724
+empresa–producto,microsoft:windows :: apple:?,iphone,GloVe 6B,"window (0.63), glass (0.59), ipod (0.58), trees (0.58), lights (0.56)",35,0.5177269577980042
+moneda,japan:yen :: europe:?,euro,SGNS (propio),"stock (0.46), 800 (0.45), scandinavia (0.45), sum (0.45), investors (0.45)",12558,0.19455327093601227
+moneda,japan:yen :: europe:?,euro,Word2Vec gensim,"hectolitres (0.55), jpy (0.55), remittances (0.53), sesterces (0.52), worth (0.52)",20910,0.2756447196006775
+moneda,japan:yen :: europe:?,euro,GloVe 6B,"francs (0.65), euro (0.64), euros (0.63), currencies (0.61), trading (0.60)",2,0.639595627784729
